@@ -1,0 +1,155 @@
+﻿
+@import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
+
+header{background-color: black; color: red; font-style: italic;}
+
+/*h1{
+    background-color: red;
+    color: gray;
+    font-weight: bold;
+}*/
+.slogan{
+    font-style: italic;
+    font-size:18px;
+}
+#aboutUs{
+    background-color: black;
+    font-size: 15px;
+}
+
+footer {
+    font-style: italic;
+}
+
+nav a {
+    font-weight: bold;
+    color: red;
+    background-color: black;
+}
+
+    nav a:hover, mav a:active, nav a:focus {
+        text-decoration: none;
+    }
+
+nav ul li {
+    display: inline-block;
+}
+
+    nav ul li a {
+        padding: .4em 1em;
+        display: block;
+    }
+
+nav ul {
+    background-color: black;
+    padding: 0;
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+}
+
+nav li:hover {
+    background-color: white;
+}
+
+.color header h1 {
+
+}
+
+main {
+    background-color: black;
+    color: red;
+}
+
+footer {
+    background-color: black;
+    color: red;
+}
+
+body {
+    background-color: black;
+    color: red;
+}
+
+.section {
+    background-color: black;
+    color: red;
+}
+
+h1, h2, h3 {
+    font-size: 1.5em;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1, h2, footer {
+    text-align: center;
+}
+
+header {
+    background: url('../Images/knowyourself.jpg') no-repeat center center fixed;
+    background-size: cover;
+   
+}
+
+body {
+    background-image: url('../images/mythology_squarespace.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Inserted Sidenav*/
+.sidenav{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1030;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.9);
+    overflow-x: hidden;
+    padding-top: 100px;
+    transition: .5s;
+}
+
+.sidenav a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 1.3em;
+    color: #900000;
+    display: block;
+    transition: .3s;
+}
+
+.sidenav a:hover{
+    color: #aaa;
+}
+
+.close-btn {
+    position: absolute;
+    top: 50px;
+    right: 25px;
+    font-size: 2em;
+    margin-left: 50px;
+}
+
+.button {
+    background: rgba(0,0,0,.5);
+    height: 100%;
+    width: 20px;
+    z-index: 1030;
+    position: fixed;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+.vertical-text {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    writing-mode: vertical-lr;
+    color: #fff;
+    font-weight: bold;
+}

@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>This is the Main Index</title>
+    <meta name="description" content="the descriptions" />
+    <meta name="keywords" content="keywords, FED1" />
+    <meta name="author" content="Josh Ready" />
+
+
+    <link href="CSS/StyleSheet.css" rel="stylesheet" />
+
+    <link href="/images/favicon.jpg" type="image/x-icon" rel="icon" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+</head>
+
+
+
+<body>
+    <header>
+        <h1>Better Gaming Quicker</h1>
+        <p class="slogan">Doing better, but faster</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li>
+                <a href="Index.html">Home</a>
+            </li>
+            <li>
+                <a href="Classes.html">Classes</a>
+            </li>
+            <li>
+                <a href="Team.html">The Team</a>
+            </li>
+            <li>
+                <a href="Contact.html">Contact Us</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="aboutUs">
+            <h3>About Us</h3>
+            <p>We are here to teach you the basics about the game, and increasing your skillset!</p>
+        </section>
+        <h2>Why Choose Us</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+
+
+
+    </main>
+
+    <footer>
+        &copy;Josh Ready 2020
+    </footer>
+
+    <!-- Inserted Sidenav -->
+
+    <div id="admin-btn" class="button" onclick="openAdminNav()">
+        <span class="vertical-text">ADMIN</span>
+    </div>
+    <div id="admin-nav" class="sidenav">
+        <a href="javascript:void(0)" class="close-btn" onclick="closeAdminNav()">&times;</a>
+        <a href="#">Users Admin</a>
+        <a href="#">Roles Admin</a>
+    </div>
+
+    <script>
+        function openAdminNav() {
+            document.getElementById('admin-btn').style.display = "none";
+            document.getElementById('admin-nav').style.width = "250px";
+        }
+        function closeAdminNav() {
+            document.getElementById('admin-btn').style.display = "block";
+            document.getElementById('admin-nav').style.width = "0";
+        }
+    </script>
+
+</body>
+</html>
